@@ -11,7 +11,8 @@
     <RepositoryUrl>https://github.com/Jhayphal/ProxySharp.Parsers</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>proxy, proxypool, proxyparser</PackageTags>
-    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Readme updated.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

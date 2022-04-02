@@ -21,9 +21,9 @@ Parse web-page to a proxies list.
 
 ```
 var client = new HttpClient();
-var page = await client.GetAsync(ProxiesUrl);
+var page = await client.GetAsync("https://free-proxy-list.net/");
 var content = await page.Content.ReadAsStringAsync();
-			
+
 var config = new TableParserConfiguration
 {
   TableSelector = "#list > div > div.table-responsive > div > table"
