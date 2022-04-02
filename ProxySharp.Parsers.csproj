@@ -1,11 +1,32 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>ProxySharpJ.Parsers</PackageId>
+    <Authors>Jhayphal</Authors>
+    <Description>Provides functionality for parsing proxies lists from the websites. The list of proxy servers could be used by the ProxySharp package.</Description>
+    <PackageProjectUrl>https://github.com/Jhayphal/ProxySharp.Parsers</PackageProjectUrl>
+    <PackageIcon>database.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Jhayphal/ProxySharp.Parsers</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>proxy, proxypool, proxyparser</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AngleSharp" Version="0.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="database.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
