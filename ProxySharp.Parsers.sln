@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxySharp.Parsers", "ProxySharp.Parsers.csproj", "{B970B977-F24B-41A6-A3DA-A4F601DD95AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B970B977-F24B-41A6-A3DA-A4F601DD95AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B970B977-F24B-41A6-A3DA-A4F601DD95AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B970B977-F24B-41A6-A3DA-A4F601DD95AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B970B977-F24B-41A6-A3DA-A4F601DD95AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C52AF171-68B6-44CD-9D45-951303312DE3}
+	EndGlobalSection
+EndGlobal
